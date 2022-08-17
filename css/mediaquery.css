@@ -1,0 +1,69 @@
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  header {
+    padding: 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html .fa-bars {
+    display: block;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #eee;
+    border-top: #eee.1rem soolid rgba(0, 0, 0, 0.1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header #toggler:checked ~ .navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 0.1rem;
+    display: block;
+    border-radius: 1rem;
+    text-align: center;
+  }
+
+  .home .content h3{
+    font-size: 5rem;
+  }
+
+  .home .content span{
+    font-size: 2.5rem;
+  }
+
+  .icons_container .icons h3{
+    font-size: 2rem;
+}
+.icons_container .icons span{
+    font-size: 1.7rem;
+}
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+
+  header {
+    padding: 2rem;
+  }
+  .heading{
+    font-size: 3rem;
+  }
+}
